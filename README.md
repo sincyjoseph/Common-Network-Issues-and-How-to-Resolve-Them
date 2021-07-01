@@ -51,3 +51,23 @@ Most commonly, sharing problems arise due to conflicts between mixed security en
 - Incorrectly configured HomeGroup.
 - Network type set to Public.
 - Incorrect NTFS permissions.
+
+# 6. Local Network is Unable to Connect to the internet
+This situation can either be intermittent or persistent. Often times, the most difficult aspect of dealing with any external network problem is finding the company responsible. And then tasking them to solve the issue, particularly with intermittent failures that are difficult to trace. It can sometimes be such a problem that organizations will have to switch internet providers in order to solve the issue.
+
+**The Quick Fix:** A router and modem reboot is the first order of business. The tracert then utility can be used to identify communication breaks. It will clearly hiccup on the particular router hop that is causing the problem. Contact your ISP with your findings, providing screenshots as necessary.
+
+**The Preventive Measure:** To avoid the finger-pointing that can prevent rapid resolution of external issues, do some research to ensure that you procure connectivity only from local Tier 1 providers. Other ISPs are more than happy to sell you service, however, they are simply piggybacking the Tier 1 connection, since they don't actually own the infrastructure in your area.
+
+The goal is to remove as many middle-men as possible, so that when (not if) you experience a problem, one phone call is all that is required to identify the issue and get technicians to work on it.
+
+# 7. Slow Internet Performance
+Slow performance is typically due to congestion, or sometimes poor quality connections that have corroded or otherwise deteriorated. Congestion may not be directly related to bandwidth exhaustion, as a single overloaded port on a switch or router can diminish network performance.
+
+This can be especially true on leased lines where dedicated bandwidth is to be expected, but speed tests indicate the network is not reaching it's rated potential.
+
+**The Quick Fix:** Use speed test websites, conducting tests from geographically remote servers. This can pinpoint areas of congestion on the ISP's network. In the case of cable internet, the local network is shared amongst your neighbors, committing your ISP to a costly bandwidth upgrade when saturation occurs. Report your findings to your ISP so that they can take steps to resolve the issue.
+
+DNS servers are an often overlooked aspect of internet performance. Using incorrect DNS servers can result in routing congestion or load balancing problems. While you should typically use your ISP's DNS settings whenever possible, they may actually be routing traffic through overloaded web caches. You can temporarily adjust your DNS settings to use OpenDNS instead.
+
+**The Preventive Measure:** if internet performance is critical, you'll need to procure adequate connectivity. While cable internet may be inexpensive, you could be setting yourself up for frequent jeers from employees. A local DSL operator may offer improved reliability for a slightly higher cost, but for the most consistent performance, you may find that an expensive leased line is a requirement for your organization.
