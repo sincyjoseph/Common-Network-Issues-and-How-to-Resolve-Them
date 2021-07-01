@@ -47,7 +47,7 @@ Most commonly, sharing problems arise due to conflicts between mixed security en
 3. Ensure all workstations are on the same subnet. This problem typically only appears on complex networks, however, even simple networks sometimes have static-IP equipment with an improperly configured subnet. The result is that external traffic will move about just fine, while internal traffic will hit unexpected roadblocks.
 4. All Windows network adapters will need File and Printer Sharing for Microsoft Networks, Client for Microsoft Networks, and NetBIOS over TCP/IP enabled.
 5. Once the above checks have passed, it's finally time to check the most likely culprit, permissions. There are multiple layers of access required, each with their own interface within the OS. Check for:
-        - Systems configured with the wrong workgroup or domain.
-        - Incorrectly configured HomeGroup.
-        - Network type set to Public.
-        - Incorrect NTFS permissions.
+- Systems configured with the wrong workgroup or domain.
+- Incorrectly configured HomeGroup.
+- Network type set to Public.
+- Incorrect NTFS permissions.
